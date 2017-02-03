@@ -1,0 +1,24 @@
+defaults:
+  permissions:
+    - multi_client/backend/engine
+    - multi_client/client/index
+    - multi_client/client/show
+    - multi_client/client/new
+    - multi_client/client/create
+    - multi_client/client/edit
+    - multi_client/client/update
+    - multi_client/client/destroy
+  roles:
+    multi_client/administrator:
+      - multi_client/backend/engine
+      - multi_client/client/index
+      - multi_client/client/show
+      - multi_client/client/new
+      - multi_client/client/create
+      - multi_client/client/edit
+      - multi_client/client/update
+      - multi_client/client/destroy
+    multi_client/reviewer:
+      - multi_client/backend/engine
+      - multi_client/client/index
+      - multi_client/client/show

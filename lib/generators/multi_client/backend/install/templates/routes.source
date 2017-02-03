@@ -1,0 +1,4 @@
+
+  localized do
+    mount MultiClient::Backend::Engine => '/backend/multi-client'
+  end

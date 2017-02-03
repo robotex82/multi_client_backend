@@ -1,0 +1,1 @@
+//= require multi_client/backend/application

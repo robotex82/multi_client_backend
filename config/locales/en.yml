@@ -1,0 +1,6 @@
+en:
+  classes:
+    multi_client/backend/engine: 'Clients'
+  routes:
+    mount:
+      multi_client_backend: '/backend/multi-client'

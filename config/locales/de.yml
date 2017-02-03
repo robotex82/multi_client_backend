@@ -1,0 +1,6 @@
+de:
+  classes:
+    multi_client/backend/engine: 'Mandanten'
+  routes:
+    mount:
+      multi_client_backend: '/backend/multi-client'

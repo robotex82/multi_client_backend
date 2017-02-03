@@ -1,0 +1,22 @@
+.well
+  %h4= form.object.class.human_attribute_name :tenant
+  = form.input :subdomain
+  = form.input :identifier
+  = form.input :enabled, as: :boolean
+
+/ .well
+/   %h4= form.object.class.human_attribute_name :tenant_settings
+/   = form.input :brand_primary_color, input_html: { type: 'color' }
+/   = form.input :logo, as: :file
+
+.well
+  %h4= form.object.class.human_attribute_name :roles_and_permissions
+  = form.input :create_roles_and_permissions, as: :boolean
+
+.well
+  %h4= form.object.class.human_attribute_name :users
+  = form.input :user_emails, as: :text
+
+/ .well
+/   %h4= form.object.class.human_attribute_name :products
+/   = form.input :product_ids, as: :check_boxes, collection: Chi::Licensing::Product.all, label_method: :human, include_hidden: false
